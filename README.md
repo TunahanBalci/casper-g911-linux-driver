@@ -21,6 +21,15 @@ This repository contains a patch to add WMI driver support for Casper Excalibur 
 *   Build tools (`build-essential`, `libssl-dev`, etc.)
 
 ## Installation
+
+**Install with DKMS (recommended)**
+1. **Download and CD into the repository**
+2. **Run install script as sudo:**
+    ```bash
+    sudo ./install.sh
+    ```
+
+ **Install via Patching:**
 1.  **Download Kernel Source**:
     ```bash
     wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.2.tar.xz
